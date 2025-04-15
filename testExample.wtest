@@ -1,9 +1,13 @@
-import example.pepita
+import tito.*
 
-describe "group of tests for pepita" {
-
-  test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+describe "test de tito" {
+    method inialize(){
+        tito.consumir(5, terere)
+    }
+  test "tito tiene peso 710" {
+    assert.equals(70, tito.peso())
   }
-
+  test "tito tiene velocidad 4.1" {
+    assert.equals(7, tito.velocidad())
+  }
 }
